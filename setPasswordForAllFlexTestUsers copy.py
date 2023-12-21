@@ -1,14 +1,12 @@
 import requests
 import json
 
-import config
-
 headers = {
   'Content-Type': 'application/vnd.nativ.mio.v1+json',
-  'Authorization': config.flexAuthorization
+  'Authorization': 'Basic YXJlbWE6aFM0M0BEdlR5Q0t2'
 }
 
-passwordTestUser = config.passwordTestUser
+passwordTestUser = "Tururu!202401"
 devTestUsers = {
     "iocviewuser00":"3719944",
     "obsvideouser00":"3719947",
