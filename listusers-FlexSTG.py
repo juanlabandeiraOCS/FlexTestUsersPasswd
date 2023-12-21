@@ -1,11 +1,15 @@
 import requests
 
-url = "https://stgflex.mam.olympicchannel.com/api/users"
+import config
+
+headers = {
+  'Content-Type': 'application/vnd.nativ.mio.v1+json',
+  'Authorization': config.flexAuthorization
+}
 
 payload = {}
-headers = {
-  'Authorization': 'Basic YXJlbWE6aFM0M0BEdlR5Q0t2'
-}
+
+url = "https://stgflex.mam.olympicchannel.com/api/users"
 
 response = requests.request("GET", url, headers=headers, data=payload)
 

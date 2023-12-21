@@ -1,0 +1,9 @@
+config.py                                   Flex token for API call and password for test users in all three Flex environments
+
+listusers-FlexDEV                           Python scripts that list all the users on each environment
+listusers-FlexSTG
+listusers-FlexPROD
+
+setPasswordForAllFlexTestUsers-test.py      Test script with only one DEV user
+
+setPasswordForAllFlexTestUsers.py           Script that changes the password for all test users in all Flex environments
